@@ -8,10 +8,10 @@ from tempfile import NamedTemporaryFile
 import math
 from docx import Document
    
-# Load environment variables from .env file
+# load environment variables from .env file
 load_dotenv()
 
-#  Set your OpenAI API key
+# Set your OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_chunk_length_ms(file_path, target_size_mb):
