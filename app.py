@@ -19,7 +19,6 @@ def get_chunk_length_ms(file_path, target_size_mb):
     """
     Calculate the length of each chunk in milliseconds to create chunks of approximately target_size_mb.
 
-
     Args:
     file_path (str): Path to the audio file.
     target_size_mb (int): Target size of each chunk in megabytes.
