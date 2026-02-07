@@ -7,7 +7,6 @@ from tempfile import NamedTemporaryFile
 import math
 from docx import Document
 
-
 # load environment variables from .env file
 load_dotenv()
 
